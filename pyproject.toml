@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "urssi_playground"
+version = "0.1.0"
+dependencies = []
+authors = [
+    {name = "Sam Evans", email = "sevans7@bu.edu"},
+]
+description = "Playing around at URSSI!"
+license = {text = "MIT License"}
