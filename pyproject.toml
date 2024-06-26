@@ -11,3 +11,8 @@ authors = [
 ]
 description = "Playing around at URSSI!"
 license = {text = "MIT License"}
+
+[project.optional-dependencies]
+testing_deps = [
+    "pytest"
+]
