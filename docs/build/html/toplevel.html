@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>toplevel &#8212; URSSI Playground 0.1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=01f34227"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Wow this is so cool!" href="coolpage1.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="toplevel">
+<h1>toplevel<a class="headerlink" href="#toplevel" title="Link to this heading">¶</a></h1>
+<p id="module-urssi_playground.tools">File Purpose: tools whose main purpose is to work with implementation details of Python.</p>
+<p>E.g. manipulate function docstrings</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="urssi_playground.tools.displaysource">
+<span class="sig-prename descclassname"><span class="pre">urssi_playground.tools.</span></span><span class="sig-name descname"><span class="pre">displaysource</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">obj</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#urssi_playground.tools.displaysource" title="Link to this definition">¶</a></dt>
+<dd><p>display sourcecode for obj, including syntax highlighting. See also: printsource.
+module: bool
+whether to also tell module &amp; type info about this object.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="urssi_playground.tools.format_docstring">
+<span class="sig-prename descclassname"><span class="pre">urssi_playground.tools.</span></span><span class="sig-name descname"><span class="pre">format_docstring</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args__format</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sub_indent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sub_ntab</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kw__format</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#urssi_playground.tools.format_docstring" title="Link to this definition">¶</a></dt>
+<dd><p>returns a decorator of f which returns f, after updating f.__doc__ via f.__doc__.format(…)
+sub_indent: None or str
+if provided, indent all lines (after the first line) for each multiline string, before formatting.
+sub_ntab: int
+if provided when sub_indent is None, use sub_indent = sub_ntab * TAB</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="urssi_playground.tools.printsource">
+<span class="sig-prename descclassname"><span class="pre">urssi_playground.tools.</span></span><span class="sig-name descname"><span class="pre">printsource</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">obj</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">as_str</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#urssi_playground.tools.printsource" title="Link to this definition">¶</a></dt>
+<dd><p>prints source code for object (e.g. call this on a function or class).
+module: bool
+whether to also tell module &amp; type info about this object.
+as_str: bool
+if True, return result as a string instead of printing it.</p>
+</dd></dl>
+
+<dl class="py function" id="module-urssi_playground.underground.dirt">
+<dt class="sig sig-object py" id="urssi_playground.underground.dirt.wet_dirt">
+<span class="sig-prename descclassname"><span class="pre">urssi_playground.underground.dirt.</span></span><span class="sig-name descname"><span class="pre">wet_dirt</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#urssi_playground.underground.dirt.wet_dirt" title="Link to this definition">¶</a></dt>
+<dd><p>tells you about wet dirt</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">URSSI Playground</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="coolpage1.html">Wow this is so cool!</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">toplevel</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#urssi_playground.tools.displaysource"><code class="docutils literal notranslate"><span class="pre">displaysource()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#urssi_playground.tools.format_docstring"><code class="docutils literal notranslate"><span class="pre">format_docstring()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#urssi_playground.tools.printsource"><code class="docutils literal notranslate"><span class="pre">printsource()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#urssi_playground.underground.dirt.wet_dirt"><code class="docutils literal notranslate"><span class="pre">wet_dirt()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="coolpage1.html" title="previous chapter">Wow this is so cool!</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Samuel Evans.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/toplevel.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

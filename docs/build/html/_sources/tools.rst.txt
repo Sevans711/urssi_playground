@@ -1,0 +1,6 @@
+=====
+tools
+=====
+
+.. make something that will read tools.py and generate docs from that
+.. automodule:: urssi_playground
