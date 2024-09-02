@@ -1,9 +1,13 @@
+"""Playing around with stuff from URSSI tutorial, e.g. PyPI
+
+This package has a multiline docstring, here is one of the lines,
+here is another line. What happens to the extra lines from flit/hatch?
+"""
+
 x = 7
 y = 'hello world'
 
-
-
-t = "version 0.1.0 but re-uploaded!"
+__version__ = "2024.09.0"   # YYYY.0M.MICRO   # formatted like xarray versions.
 
 from . import tools
 from . import underground
