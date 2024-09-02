@@ -7,7 +7,7 @@ here is another line. What happens to the extra lines from flit/hatch?
 x = 7
 y = 'hello world'
 
-__version__ = "2024.09.0"   # YYYY.0M.MICRO   # formatted like xarray versions.
+__version__ = "2024.9.0"   # YYYY.MM.MICRO  # MM not 0M, to match pip normalization.
 
 from . import tools
 from . import underground
